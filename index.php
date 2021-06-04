@@ -63,7 +63,7 @@ $total = $subtotal + $tax;
 </HEAD>
 
 <BODY bgcolor="#5F9EA0">
-<center><img src="Restaurant.jpg" width="1200" height="600">
+<center><img src="Restaurant.png" width="1200" height="600">
 <B><font color="white" style ="font-size:80" > Restaurant Billing System </font></B>
 </center>
 <hr size=5 color = "powderblue">
