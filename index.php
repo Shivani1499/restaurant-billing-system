@@ -8,7 +8,7 @@ if(isset($add))
 	
 $subtotal1 = ($number1 * 195) + ($number2 * 110) + ($number3 * 230) + ($number4 * 245);
 $subtotal2 = ($number5 * 87) + ($number6 * 110) + ($number7 * 230) + ($number8 * 245);
-$subtotal3 = ($number9 * 45) + ($number10 * 110) + ($number11 * 230) + ($number12 * 245);
+$subtotal3 = ($number9 * 230) + ($number10 * 110) + ($number11 * 230) + ($number12 * 245);
 $subtotal4 = ($number13 * 87) + ($number14 * 245) + ($number15 * 230) + ($number16 * 245);
 
 $subtotal = $subtotal1 + $subtotal2 + $subtotal3 + $subtotal4;
@@ -257,8 +257,8 @@ $total = $subtotal + $tax;
 
 <td>
 <form name ="Calculator"  class="style2"> 
-<input name ="display" placeholder = "0" style ="width:212px; height:40px; text-align:right; font-size:30; 
-border-radius:8px; margin:3px"/>
+<textarea name ="display" placeholder = "0" style ="width:212px; height:40px; text-align:right; font-size:30; 
+border-radius:8px; margin:3px"/></textarea>
 <br>
 <input type ="button"  value="7" onClick ="document.Calculator.display.value +='7'" class='cbtn'/>
 <input type ="button"  value="8" onClick ="document.Calculator.display.value +='8'" class='cbtn'/>
